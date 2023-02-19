@@ -1,0 +1,71 @@
+/* service-card.css */
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-right: 16px;
+    min-width: 300px;
+}
+
+.service-card-image {
+    margin-bottom: 16px;
+}
+
+.service-card-image img {
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+.service-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.rating-stars {
+    display: flex;
+    margin-right: 8px;
+}
+
+.star {
+    font-size: 24px;
+}
+
+.rating-number {
+    font-size: 14px;
+    color: #888;
+    margin-left: auto;
+}
+
+.service-card-tiers {
+    margin-top: 16px;
+}
+
+.service-card-tiers label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.service-card-tiers select {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.service-card-tier-details {
+    margin-top: 16px;
+}
+
+.service-card-tier-details h4 {
+    margin-bottom: 8px;
+}
